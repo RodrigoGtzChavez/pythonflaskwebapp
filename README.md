@@ -39,6 +39,7 @@ python main.py
 La aplicación estará disponible en http://127.0.0.1:5000/.
 
 ## Estructura del Proyecto
+```
 Quadra/
 │
 ├── website/                  # Directorio principal de la aplicación
@@ -57,7 +58,7 @@ Quadra/
 ├── requirements.txt          # Dependencias del proyecto
 ├── main.py                   # Punto de entrada de la aplicación
 └── README.md                 # Este archivo
-
+```
 ## Tecnologías Utilizadas
 
 * **Backend:** Flask, Flask-SQLAlchemy, fask-Login, Wekzeug
