@@ -8,36 +8,8 @@
 - **Agregar Puestos de Comida**: Los usuarios pueden añadir nuevos puestos de comida con su ubicación, descripción y foto.
 - **Calificaciones y Reseñas**: Los usuarios pueden calificar y agregar comentarios a los puestos de comida.
 - **Visualización de Puestos**: Los usuarios pueden ver una lista de puestos de comida y acceder a los detalles de cada puesto.
+
   
-## Instalación y Configuración
-
-Clonar el repositorio:
-
-```
-git clone https://github.com/usuario/Quadra.git
-cd Quadra
-```
-Crear entorno virtual (opcional pero recomendado):
-```
-python -m venv venv
-source venv/bin/activate  # En Windows: venv\Scripts\activate
-```
-Instalar las dependencias:
-```
-pip install -r requirements.txt
-```
-Inicializar la base de datos:
-```
-flask db init
-flask db migrate
-flask db upgrade
-```
-Correr la aplicación:
-```
-python main.py
-```
-La aplicación estará disponible en http://127.0.0.1:5000/.
-
 ## Estructura del Proyecto
 ```
 Quadra/
@@ -70,3 +42,34 @@ Quadra/
 >User: Almacena los usuarios registrados.
 >FoodStall: Almacena los puestos de comida subidos por los usuarios.
 >Review: Almacena las reseñas y calificaciones de los puestos.
+
+
+## Instalación y Configuración
+
+Clonar el repositorio:
+
+```
+git clone https://github.com/usuario/Quadra.git
+cd Quadra
+```
+Crear entorno virtual (opcional pero recomendado):
+```
+python -m venv venv
+source venv/bin/activate  # En Windows: venv\Scripts\activate
+```
+Instalar las dependencias:
+```
+pip install -r requirements.txt
+```
+Inicializar la base de datos:
+```
+flask db init
+flask db migrate
+flask db upgrade
+```
+Correr la aplicación:
+```
+python main.py
+```
+La aplicación estará disponible en http://127.0.0.1:5000/.
+
