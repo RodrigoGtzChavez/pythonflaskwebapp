@@ -67,6 +67,6 @@ Quadra/
 
 ## Modelos de Base de Datos
 
-User: Almacena los usuarios registrados.
-FoodStall: Almacena los puestos de comida subidos por los usuarios.
-Review: Almacena las reseñas y calificaciones de los puestos.
+>User: Almacena los usuarios registrados.
+>FoodStall: Almacena los puestos de comida subidos por los usuarios.
+>Review: Almacena las reseñas y calificaciones de los puestos.
